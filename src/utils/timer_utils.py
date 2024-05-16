@@ -6,7 +6,7 @@ import logging
 from humanfriendly import format_timespan
 
 # create logger
-logger = logging.getLogger('serverless-spark-example')
+logger = logging.getLogger('Train BPE on GCP with PySpark')
 
 def timer_args(name) -> Dict:
     """
